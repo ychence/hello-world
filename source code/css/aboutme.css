@@ -1,0 +1,9 @@
+.aboutme {
+    line-height: 50px;
+}
+
+.email {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 87, 181);
+}

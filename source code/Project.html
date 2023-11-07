@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Personal pages">
+    <title>Welcome to Charles Website:Project</title>
+    <link rel="icon" href="./images/webimage.jpg">
+    <link rel="stylesheet" href="./css/project-style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/usercard.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="theme">Charles Website</h1>
+    </header>
+    <nav>
+        <ul class="label2">
+            <li><a href="./Homepage.html">Homepage</a></li>
+        </ul>
+    </nav> <br>
+    <div class="bag">
+        <div class="usercard">
+            <div class="usercard-head">Welcome to My Website</div>
+            <div class="usercard-body">
+                <div class="usercard-body-photo">
+                    <img src="./images/webimage.jpg" alt="">
+                </div>
+                <div class="usercard-body-info">
+                    <div class="usercard-body-info-username">Charles</div>
+                    <div class="usercard-body-info-reputation" style="font-weight: bold;">This is my namecard</div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div>
+                <h1>Project
+                    <img src="./images/avatar2.png" class="img1">
+                </h1>
+                <h4>Project1: Please enter a real number in the following text box, and it will determine whether it is odd or even.</h4>
+                <input type="text" id="num">
+                <input type="button" value="submit" onclick="judgement();">
+                <span id="result1"> </span>
+                <hr class="twoproject-line">
+                <h4>Project2:Please enter an integer in the following text box, which will determine whether it is a prime number.</h4>
+                <input type="text" id="num2">
+                <input type="button" value="submit" onclick="IsPrime();">
+                <span id="result2"> </span>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy;2023 Charles Website</p>
+    </footer>
+
+    <script src="./js/IsPrime.js"></script>
+    <script src="./js/judgement.js"></script>
+    
+</body>
+
+</html>

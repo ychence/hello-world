@@ -1,0 +1,38 @@
+/* navigation */
+.theme {
+    color: grey;
+    margin: 0px;
+}
+
+.theme:hover {
+    margin: 0px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.label2 {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.label2>li :hover {
+    background-color: rgb(89, 119, 227);
+}

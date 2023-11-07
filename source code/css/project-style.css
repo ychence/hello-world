@@ -1,0 +1,15 @@
+hr.twoproject-line {
+    border: none;
+    border-top: 4px double #333;
+    color: #333;
+}
+
+#result1 {
+    color: grey;
+    font-weight: bolder;
+}
+
+#result2 {
+    color: grey;
+    font-weight: bolder;
+}

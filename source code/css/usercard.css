@@ -1,0 +1,36 @@
+/* namecard */
+.usercard-body-photo>img {
+    width: 30px;
+    height: 30px;
+}
+
+.usercard {
+    width: 200px;
+    height: 67.69dx;
+    background-color: #D9EAF7;
+    padding: 5px 6px 7px 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.usercard-head {
+    font-size: 12px;
+    color: grey;
+    margin: 1px 0px 4px 0px;
+    font-style: oblique;
+}
+
+.usercard-body-photo {
+    float: left;
+}
+
+.usercard-body-info-username {
+    font-size: 13px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.usercard-body-info-reputation {
+    font-size: 12px;
+    color: #333;
+}
